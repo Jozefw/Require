@@ -9,9 +9,9 @@ require.config(
 	}
 });
 
-message module is loaded and the result is returned to the message param
-require(['jquery', 'message'],function($, message){
+// message module is loaded and the result is returned to the message param
+require(['jquery', 'message','anotherModule'],function($, message, anotherModule){
 	// first text posted to index page
 	// $('.output').html("So long, and thanks for all the fish!");
-	$('.output').html(message)
+	$('.output').html(message + " " + anotherModule);
 });

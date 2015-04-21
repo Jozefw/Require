@@ -8,3 +8,5 @@ define('message', function(){
 	return "Hello, I must be going...message";
 });
 
+// we can add more modules on the same file by calling it anohter name
+
